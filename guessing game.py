@@ -5,7 +5,7 @@ print("Hi, " + myname + ", I am thinking of a number between 100 to 999.")
 a = random.randint(100, 999)
 attempts = 0
 
-while True:
+while attempts < 10:
     try:
         guess = int(input("Guess your number from 100 to 999. "))
         attempts += 1
