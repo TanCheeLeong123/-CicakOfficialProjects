@@ -12,6 +12,7 @@ while attempts < 10:
 
         if guess < 100 or guess > 999:
             print("Please enter the number from 100 to 999.")
+            continue
         elif guess < a:
             print("Too low! Try again.")
         elif guess > a:
