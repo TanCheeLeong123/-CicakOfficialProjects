@@ -14,9 +14,9 @@ while attempts < 10:
             print("Please enter the number from 100 to 999.")
             continue
         elif guess < a:
-            print("Too low! Try again.")
+            print("Your guess is too low.")
         elif guess > a:
-            print("Too high! Try again.")
+            print("Your guess is too high.")
         else:
             print("You guessed the number " + str(a) + " in " + str(attempts) + " attempts.")
             break
@@ -26,3 +26,4 @@ while attempts < 10:
     except ValueError:
         print("Please enter a valid integer.")
     
+
