@@ -138,7 +138,7 @@ class Minesweeper:
         return 'won' if self.won else 'lost'
 
 def main():
-    print("=== MINESWEEPER ===")
+    print("=== QUEEN TOADSTOOL AND THE WARP PIPES MINESWEEPER ===")
     # Change difficulty here: rows, cols, mines
     rows, cols, mines = 9, 9, 10 # Beginner
     # rows, cols, mines = 16, 16, 40 # Intermediate
